@@ -71,3 +71,29 @@ section{
   color: grey;
   width: 40%;
 }
+
+.card{
+  width: 175px;
+  font-size: 12px;
+}
+
+.zaf{
+  width: 100%;
+  border-radius: 9px;
+}
+
+.stats{
+  display: flex;
+}
+
+.bold{
+  font-weight: 800;
+}
+
+.grey{
+  color: grey;
+}
+
+.star{
+  height: 14px;
+}

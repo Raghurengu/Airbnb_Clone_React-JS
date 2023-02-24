@@ -28,7 +28,9 @@ function App() {
     <div>
         <Navbar />
         <Hero />
+        <div className='cardlist'>
         {info}
+        </div>
     </div>
   )
 }

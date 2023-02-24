@@ -1,12 +1,5 @@
 export default [
-    // {
-    //     img: "../images/zaf.png",
-    //     rating: "4.5",
-    //     revcount: "6",
-    //     country: "USA",
-    //     title: "Life lesson with Katie",
-    //     price: "400",
-    // },
+
     {
         img: "https://a0.muscache.com/im/pictures/miso/Hosting-605371928419351152/original/c8f48e8b-091d-47ea-85ac-b31bc2604bbb.jpeg?im_w=720",
         rating: "4.1",
@@ -55,7 +48,5 @@ export default [
         title: "Chennai",
         price: "4500",
     },
-
- 
 
 ]

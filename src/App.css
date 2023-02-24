@@ -36,6 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.total{
+  height: 1000px;
+}
 
 nav{
   display: flex;
@@ -73,8 +76,16 @@ section{
 }
 
 .card{
+
   width: 175px;
   font-size: 12px;
+  margin: 20px;
+  /* flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; */
+
+
 }
 
 .zaf{
@@ -84,6 +95,7 @@ section{
 
 .stats{
   display: flex;
+  align-items: center;
 }
 
 .bold{
@@ -97,3 +109,13 @@ section{
 .star{
   height: 14px;
 }
+
+.cardlist{
+
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+

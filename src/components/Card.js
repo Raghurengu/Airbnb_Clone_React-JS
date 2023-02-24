@@ -6,7 +6,7 @@ import star from '../images/star.png';
 export const Card = (props) => {
   return (
       <div className='card'>
-        <div className='rel'> <span className='badge'>{props.avl == 0 ? <p>UnAvailable</p> : <p>{props.avl}Left</p> }</span>
+        <div className='rel'> <span className='badge'>{props.avl == 0 ? <p>UnAvailable</p> : <p>{props.avl} Left</p> }</span>
         <img src={props.img} className='zaf' /></div>
         <div className='stats'>
           <img src={star} className='star' />
